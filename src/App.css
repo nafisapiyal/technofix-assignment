@@ -1,0 +1,70 @@
+.table {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+}
+
+.table-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* border-bottom: 1px solid burlywood; */
+  padding: 0 0 1rem 0;
+}
+
+.row {
+  display: grid;
+  gap: 1rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.show-cell {
+  display: block;
+}
+
+.hide-cell {
+  display: none;
+}
+
+.settings-button {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.dialog {
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  border: none;
+}
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dialog-header button {
+  background-color: tomato;
+}
+
+.column-setting-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.column-setting-wrapper label,
+.column-setting-wrapper input {
+  cursor: pointer;
+}
